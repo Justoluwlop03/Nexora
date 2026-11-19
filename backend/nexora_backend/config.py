@@ -46,7 +46,9 @@ class Config:
     @classmethod
     def from_environment(cls) -> Config:
         _load_backend_dotenv()
-        raw_port = os.environ.get("NEXORA_PORT", "8000")
+        # Render provides PORT automatically. Keep NEXORA_PORT as an explicit
+        # override for local/dev deployments and other hosting platforms.
+        raw_port = os.environ.get("NEXORA_PORT") or os.environ.get("PORT", "8000")
         try:
             port = int(raw_port)
         except ValueError as exc:
@@ -97,7 +99,12 @@ class Config:
 
         return cls(
             database_path=database_path,
-            host=os.environ.get("NEXORA_HOST", "127.0.0.1"),
+            # Bind publicly when a platform supplies PORT; retain loopback for
+            # local development unless NEXORA_HOST is explicitly configured.
+            host=os.environ.get(
+                "NEXORA_HOST",
+                "0.0.0.0" if os.environ.get("PORT") else "127.0.0.1",
+            ),
             port=port,
             secure_cookies=secure_cookies,
             session_days=session_days,

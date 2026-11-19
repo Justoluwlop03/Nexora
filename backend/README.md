@@ -70,6 +70,11 @@ For local development, the frontend origin is commonly
 For a hosted service, bind to `0.0.0.0` and use the port assigned by the hosting
 platform.
 
+On Render, the backend reads Render's `PORT` automatically and binds to
+`0.0.0.0` when `NEXORA_HOST` is not explicitly set. Set
+`NEXORA_FRONTEND_ORIGIN` to the deployed frontend origin and configure secure
+cookies in the Render dashboard; the ignored local `.env` file is not deployed.
+
 The development server is intentionally bound to loopback. Do not expose it
 directly to the internet. Production deployment needs a TLS-terminating reverse
 proxy, managed secrets, stronger persistent rate limiting, monitoring and
