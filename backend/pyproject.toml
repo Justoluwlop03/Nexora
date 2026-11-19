@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nexora-backend"
+version = "0.1.0"
+description = "Standalone backend API for the Nexora demo wallet"
+requires-python = ">=3.11"
+dependencies = ["psycopg[binary]>=3.2,<4"]
+
+[tool.setuptools.packages.find]
+include = ["nexora_backend*"]
+exclude = ["data*", "tests*"]
+
+[tool.ruff]
+line-length = 100

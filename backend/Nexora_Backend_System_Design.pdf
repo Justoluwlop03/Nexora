@@ -1,0 +1,558 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [ 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R ] /Count 8 >>
+endobj
+4 0 obj
+<< /Length 6055 >>
+stream
+0.075 0.110 0.190 rg 0 739 612 53 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 42.0 760.0 Tm (NEXORA  /  BACKEND SYSTEM DESIGN) Tj ET
+BT /F2 21 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 717.0 Tm (Backend system design) Tj ET
+0.860 0.880 0.920 RG 0.8 w 42 704 m 570 704 l S
+0.860 0.880 0.920 RG 0.8 w 42 36 m 570 36 l S
+BT /F1 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 42.0 19.0 Tm (Target-state proposal for the frontend-only Nexora simulation) Tj ET
+BT /F2 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 537.0 19.0 Tm (01 / 08) Tj ET
+BT /F2 31 Tf 0.380 0.340 0.920 rg 1 0 0 1 42.0 655.0 Tm (NEXORA) Tj ET
+BT /F2 12 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 630.0 Tm (CRYPTO WALLET & INVESTMENT SIMULATION) Tj ET
+BT /F1 9 Tf 0.380 0.420 0.490 rg 1 0 0 1 42.0 610.0 Tm (Architecture proposal  |  API  |  ledger  |  security  |  delivery) Tj ET
+0.990 0.970 0.910 rg 0.860 0.880 0.920 RG .6 w 42 622.5 528 63.5 re B
+0.750 0.430 0.080 rg 42 622.5 3 63.5 re f
+BT /F2 8.8 Tf 0.750 0.430 0.080 rg 1 0 0 1 54.0 669.0 Tm (DESIGN STATUS: PROPOSED, NOT IMPLEMENTED) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 655.0 Tm (The workspace contains a React/Vite frontend and no backend implementation. The UI stores demo state in browser storage,) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 643.5 Tm (uses a public Kraken ticker for indicative quotes, and labels wallet actions as simulated. This document proposes a safe) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 632.0 Tm (server-side evolution; it does not describe existing production services.) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 596.5 Tm (Recommended shape) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 485 142 59 re B
+0.380 0.340 0.920 rg 42 485 4 59 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 54.0 527.0 Tm (Web client) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 513.0 Tm (User and admin UI; treat browser) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 503.0 Tm (values as untrusted.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 235 485 142 59 re B
+0.080 0.550 0.480 rg 235 485 4 59 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 247.0 527.0 Tm (HTTPS API) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 247.0 513.0 Tm (Authentication, validation,) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 247.0 503.0 Tm (authorization, idempotency.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 428 485 142 59 re B
+0.380 0.340 0.920 rg 428 485 4 59 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 440.0 527.0 Tm (Modular backend) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 440.0 513.0 Tm (One deployable domain app;) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 440.0 503.0 Tm (modules by capability.) Tj ET
+0.380 0.340 0.920 RG 1.5 w 184 515 m 235 515 l S
+BT /F2 7 Tf 0.380 0.340 0.920 rg 1 0 0 1 194.0 523.0 Tm (HTTPS) Tj ET
+0.380 0.340 0.920 RG 1.5 w 377 515 m 428 515 l S
+BT /F2 7 Tf 0.380 0.340 0.920 rg 1 0 0 1 385.0 523.0 Tm (JSON) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 70 381 190 67 re B
+0.080 0.550 0.480 rg 70 381 4 67 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 82.0 431.0 Tm (PostgreSQL) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 82.0 417.0 Tm (Users, wallets, journal entries,) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 82.0 407.0 Tm (transactions, positions, addresses and audit) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 82.0 397.0 Tm (records.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 350 381 190 67 re B
+0.750 0.430 0.080 rg 350 381 4 67 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 362.0 431.0 Tm (Worker + outbox) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 362.0 417.0 Tm (Notifications, simulation cycles, exports and) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 362.0 407.0 Tm (retryable jobs.) Tj ET
+0.380 0.340 0.920 RG 1.2 w 470 485 m 470 466 l S
+0.380 0.340 0.920 RG 1.2 w 470 466 m 165 466 l S
+0.380 0.340 0.920 RG 1.2 w 165 466 m 165 448 l S
+0.380 0.340 0.920 RG 1.2 w 470 466 m 445 466 l S
+0.380 0.340 0.920 RG 1.2 w 445 466 m 445 448 l S
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 70 304 190 56 re B
+0.750 0.430 0.080 rg 70 304 4 56 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 82.0 343.0 Tm (Market data adapter) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 82.0 329.0 Tm (Server-side Kraken quotes; cache and label) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 82.0 319.0 Tm (indicative.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 350 304 190 56 re B
+0.080 0.550 0.480 rg 350 304 4 56 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 362.0 343.0 Tm (Operational controls) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 362.0 329.0 Tm (Secrets, monitoring, backups, rate limits and) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 362.0 319.0 Tm (admin MFA.) Tj ET
+0.080 0.550 0.480 RG 1.2 w 165 381 m 165 360 l S
+0.080 0.550 0.480 RG 1.2 w 445 381 m 445 360 l S
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 570.5 Tm (Design principles) Tj ET
+BT /F2 8.1 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 553.4 Tm (-) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 553.4 Tm (Start with a modular monolith: auth, users, ledger, transfers, investment simulation, admin, market data and audit.) Tj ET
+BT /F2 8.1 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 540.7 Tm (-) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 540.7 Tm (Use PostgreSQL transactions for every balance change. Keep an immutable double-entry journal; balances are a rebuildable) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 530.0 Tm (projection.) Tj ET
+BT /F2 8.1 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 517.3 Tm (-) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 517.3 Tm (No real blockchain custody, deposit detection, withdrawal signing or investment payouts are in scope.) Tj ET
+BT /F2 8.1 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 504.6 Tm (-) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 504.6 Tm (Server state is authoritative. Browser storage may cache presentation state but must not authorize or determine balances.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 4829 >>
+stream
+0.075 0.110 0.190 rg 0 739 612 53 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 42.0 760.0 Tm (NEXORA  /  BACKEND SYSTEM DESIGN) Tj ET
+BT /F2 21 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 717.0 Tm (Product boundary and domain architecture) Tj ET
+0.860 0.880 0.920 RG 0.8 w 42 704 m 570 704 l S
+0.860 0.880 0.920 RG 0.8 w 42 36 m 570 36 l S
+BT /F1 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 42.0 19.0 Tm (Target-state proposal for the frontend-only Nexora simulation) Tj ET
+BT /F2 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 537.0 19.0 Tm (02 / 08) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 669.0 Tm (Mapped from the existing frontend) Tj ET
+BT /F2 8.2 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 651.8 Tm (-) Tj ET
+BT /F1 8.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 651.8 Tm (User routes: overview, assets, deposit instructions, investments, send, transactions, notifications and profile. Admin) Tj ET
+BT /F1 8.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 641.0 Tm (routes: overview, users, wallets/addresses, deposits, withdrawals, investments, send, transactions and settings.) Tj ET
+BT /F2 8.2 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 628.2 Tm (-) Tj ET
+BT /F1 8.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 628.2 Tm (Supported demo assets are BTC, ETH, USDT and USDC. Asset/network pairs must be configured explicitly.) Tj ET
+BT /F2 8.2 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 615.3 Tm (-) Tj ET
+BT /F1 8.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 615.3 Tm (Signup seed, admin credits, transfers, withdrawals and investment calculations are browser simulations today. Deposit is) Tj ET
+BT /F1 8.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 604.5 Tm (address display only; no chain deposit is verified. External withdrawal is currently unavailable.) Tj ET
+BT /F2 8.2 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 591.7 Tm (-) Tj ET
+BT /F1 8.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 591.7 Tm (Investment rate and cycle are illustrative; Kraken spot quotes are indicative, not execution prices or balances.) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 570.1 Tm (Backend modules and ownership) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 523.0559999999999 528 38 re B
+BT /F2 8 Tf 0.075 0.110 0.190 rg 1 0 0 1 52.0 546.1 Tm (Identity & access) Tj ET
+BT /F1 7.4 Tf 0.140 0.170 0.230 rg 1 0 0 1 196.0 547.1 Tm (Registration, password hashing, sessions, role and status checks.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 485.0559999999999 528 38 re B
+BT /F2 8 Tf 0.075 0.110 0.190 rg 1 0 0 1 52.0 508.1 Tm (Wallet & ledger) Tj ET
+BT /F1 7.4 Tf 0.140 0.170 0.230 rg 1 0 0 1 196.0 509.1 Tm (Asset metadata, balances, journal, linked internal transfers.) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 447.0559999999999 528 38 re B
+BT /F2 8 Tf 0.075 0.110 0.190 rg 1 0 0 1 52.0 470.1 Tm (Deposit simulation) Tj ET
+BT /F1 7.4 Tf 0.140 0.170 0.230 rg 1 0 0 1 196.0 471.1 Tm (Configured destination display and admin demo credit; no chain watcher.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 409.0559999999999 528 38 re B
+BT /F2 8 Tf 0.075 0.110 0.190 rg 1 0 0 1 52.0 432.1 Tm (Investment simulation) Tj ET
+BT /F1 7.4 Tf 0.140 0.170 0.230 rg 1 0 0 1 196.0 433.1 Tm (Positions, snapshotted terms, explicit simulation cycles and audit.) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 371.0559999999999 528 38 re B
+BT /F2 8 Tf 0.075 0.110 0.190 rg 1 0 0 1 52.0 394.1 Tm (Admin & audit) Tj ET
+BT /F1 7.4 Tf 0.140 0.170 0.230 rg 1 0 0 1 196.0 395.1 Tm (User status, address configuration, credits, settings and append-only records.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 333.0559999999999 528 38 re B
+BT /F2 8 Tf 0.075 0.110 0.190 rg 1 0 0 1 52.0 356.1 Tm (Market data) Tj ET
+BT /F1 7.4 Tf 0.140 0.170 0.230 rg 1 0 0 1 196.0 357.1 Tm (Allowlisted provider, cached quotes, timestamps and stale/error state.) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 295.0559999999999 528 38 re B
+BT /F2 8 Tf 0.075 0.110 0.190 rg 1 0 0 1 52.0 318.1 Tm (Async jobs) Tj ET
+BT /F1 7.4 Tf 0.140 0.170 0.230 rg 1 0 0 1 196.0 319.1 Tm (Outbox delivery, notifications, simulation and exports; safe retries.) Tj ET
+0.990 0.970 0.910 rg 0.860 0.880 0.920 RG .6 w 42 221.55599999999993 528 63.5 re B
+0.750 0.430 0.080 rg 42 221.55599999999993 3 63.5 re f
+BT /F2 8.8 Tf 0.750 0.430 0.080 rg 1 0 0 1 54.0 268.1 Tm (Boundary for a future real-money product) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 254.1 Tm (A custodial wallet needs a separately approved threat model, jurisdiction-specific legal/compliance review,) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 242.6 Tm (custody/key-management architecture, chain monitoring, transaction screening, operational controls and independent) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 231.1 Tm (security assessment. This demo proposal is not that design.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 7038 >>
+stream
+0.075 0.110 0.190 rg 0 739 612 53 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 42.0 760.0 Tm (NEXORA  /  BACKEND SYSTEM DESIGN) Tj ET
+BT /F2 21 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 717.0 Tm (HTTP API and authorization model) Tj ET
+0.860 0.880 0.920 RG 0.8 w 42 704 m 570 704 l S
+0.860 0.880 0.920 RG 0.8 w 42 36 m 570 36 l S
+BT /F1 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 42.0 19.0 Tm (Target-state proposal for the frontend-only Nexora simulation) Tj ET
+BT /F2 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 537.0 19.0 Tm (03 / 08) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 634.0 528 52.0 re B
+0.380 0.340 0.920 rg 42 634.0 3 52.0 re f
+BT /F2 8.8 Tf 0.380 0.340 0.920 rg 1 0 0 1 54.0 669.0 Tm (API conventions) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 655.0 Tm (Version under /api/v1. JSON over HTTPS. Stable opaque IDs, UTC timestamps, integer atomic asset units, explicit error) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 643.5 Tm (codes and cursor pagination. Never accept userId or role in a request as proof of identity.) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 608.0 Tm (Representative endpoints) Tj ET
+BT /F2 7 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 590.0 Tm (POST) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 590.0 Tm (/auth/register) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 590.0 Tm (Create user and secure session.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 585.0 m 570 585.0 l S
+BT /F2 7 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 573.0 Tm (POST) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 573.0 Tm (/auth/login) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 573.0 Tm (Verify password, rotate session, rate limit.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 568.0 m 570 568.0 l S
+BT /F2 7 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 556.0 Tm (POST) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 556.0 Tm (/auth/logout) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 556.0 Tm (Revoke current session.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 551.0 m 570 551.0 l S
+BT /F2 7 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 539.0 Tm (GET) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 539.0 Tm (/me) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 539.0 Tm (Authenticated profile and permissions.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 534.0 m 570 534.0 l S
+BT /F2 7 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 522.0 Tm (GET) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 522.0 Tm (/wallets/me/balances) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 522.0 Tm (Server-derived demo balances.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 517.0 m 570 517.0 l S
+BT /F2 7 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 505.0 Tm (GET) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 505.0 Tm (/assets) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 505.0 Tm (Supported asset and network metadata.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 500.0 m 570 500.0 l S
+BT /F2 7 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 488.0 Tm (GET) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 488.0 Tm (/deposit-addresses) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 488.0 Tm (Configured demo destinations only.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 483.0 m 570 483.0 l S
+BT /F2 7 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 471.0 Tm (GET) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 471.0 Tm (/transactions) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 471.0 Tm (Caller-owned, filterable history.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 466.0 m 570 466.0 l S
+BT /F2 7 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 454.0 Tm (POST) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 454.0 Tm (/transfers) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 454.0 Tm (Internal demo transfer; Idempotency-Key.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 449.0 m 570 449.0 l S
+BT /F2 7 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 437.0 Tm (POST) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 437.0 Tm (/investments) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 437.0 Tm (Simulation position; acknowledgement required.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 432.0 m 570 432.0 l S
+BT /F2 7 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 420.0 Tm (GET) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 420.0 Tm (/market/quotes) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 420.0 Tm (Cached indicative quote and observedAt.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 415.0 m 570 415.0 l S
+BT /F2 7 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 403.0 Tm (GET) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 403.0 Tm (/admin/users) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 403.0 Tm (Admin-only bounded search and paging.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 398.0 m 570 398.0 l S
+BT /F2 7 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 386.0 Tm (POST) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 386.0 Tm (/admin/wallet-credits) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 386.0 Tm (Admin-only simulated credit; reason and audit.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 381.0 m 570 381.0 l S
+BT /F2 7 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 369.0 Tm (PUT) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 369.0 Tm (/admin/deposit-addresses/{asset}) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 369.0 Tm (Admin-only address update and audit.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 364.0 m 570 364.0 l S
+BT /F2 7 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 352.0 Tm (GET) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 352.0 Tm (/admin/transactions) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 352.0 Tm (Admin-only platform activity.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 347.0 m 570 347.0 l S
+BT /F2 7 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 335.0 Tm (POST) Tj ET
+BT /F2 7 Tf 0.075 0.110 0.190 rg 1 0 0 1 92.0 335.0 Tm (/admin/users/{id}/status) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 302.0 335.0 Tm (Admin-only suspend/activate.) Tj ET
+0.860 0.880 0.920 RG 0.35 w 42 330.0 m 570 330.0 l S
+0.990 0.970 0.910 rg 0.860 0.880 0.920 RG .6 w 42 267.0 528 52.0 re B
+0.750 0.430 0.080 rg 42 267.0 3 52.0 re f
+BT /F2 8.8 Tf 0.750 0.430 0.080 rg 1 0 0 1 54.0 302.0 Tm (Deliberately absent) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 288.0 Tm (No public real deposit-credit endpoint, on-chain withdrawal, wallet-key API or payout endpoint. Demo credit is a) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 276.5 Tm (privileged, auditable simulation and must be named as such in responses and UI.) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 241.0 Tm (Response and errors) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 42.0 224.2 Tm (Success: {"data": ..., "requestId": "..."}. Error: {"error": {"code": "INSUFFICIENT_BALANCE", "message": "...", "requestId":) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 42.0 213.3 Tm ("..."}}. Use 400/422 invalid input, 401 unauthenticated, 403 forbidden, 404 absent, 409 conflict/idempotency mismatch and 429) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 42.0 202.4 Tm (throttled.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 5568 >>
+stream
+0.075 0.110 0.190 rg 0 739 612 53 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 42.0 760.0 Tm (NEXORA  /  BACKEND SYSTEM DESIGN) Tj ET
+BT /F2 21 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 717.0 Tm (Data model and accounting invariants) Tj ET
+0.860 0.880 0.920 RG 0.8 w 42 704 m 570 704 l S
+0.860 0.880 0.920 RG 0.8 w 42 36 m 570 36 l S
+BT /F1 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 42.0 19.0 Tm (Target-state proposal for the frontend-only Nexora simulation) Tj ET
+BT /F2 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 537.0 19.0 Tm (04 / 08) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 669.0 Tm (Core relational records) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 630 528 30 re B
+BT /F2 7.4 Tf 0.075 0.110 0.190 rg 1 0 0 1 50.0 647.0 Tm (users) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 160.0 648.0 Tm (id, normalized unique email, password_hash, status, created_at) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 600 528 30 re B
+BT /F2 7.4 Tf 0.075 0.110 0.190 rg 1 0 0 1 50.0 617.0 Tm (sessions) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 160.0 618.0 Tm (id, user_id, token_hash, expires_at, revoked_at) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 570 528 30 re B
+BT /F2 7.4 Tf 0.075 0.110 0.190 rg 1 0 0 1 50.0 587.0 Tm (assets) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 160.0 588.0 Tm (id, symbol, decimals, enabled; precision immutable after use) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 540 528 30 re B
+BT /F2 7.4 Tf 0.075 0.110 0.190 rg 1 0 0 1 50.0 557.0 Tm (wallet_accounts) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 160.0 558.0 Tm (id, owner_user_id, asset_id, account_type; unique owner/asset/type) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 510 528 30 re B
+BT /F2 7.4 Tf 0.075 0.110 0.190 rg 1 0 0 1 50.0 527.0 Tm (journal_transactions) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 160.0 528.0 Tm (id, unique reference, kind, status, idempotency key, actor) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 480 528 30 re B
+BT /F2 7.4 Tf 0.075 0.110 0.190 rg 1 0 0 1 50.0 497.0 Tm (journal_entries) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 160.0 498.0 Tm (id, transaction_id, account_id, signed atomic amount; immutable) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 450 528 30 re B
+BT /F2 7.4 Tf 0.075 0.110 0.190 rg 1 0 0 1 50.0 467.0 Tm (balance_projection) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 160.0 468.0 Tm (account_id, available atomic amount, version; rebuildable) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 420 528 30 re B
+BT /F2 7.4 Tf 0.075 0.110 0.190 rg 1 0 0 1 50.0 437.0 Tm (transfers) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 160.0 438.0 Tm (sender, recipient, asset, amount, memo, journal transaction) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 390 528 30 re B
+BT /F2 7.4 Tf 0.075 0.110 0.190 rg 1 0 0 1 50.0 407.0 Tm (investments) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 160.0 408.0 Tm (user, asset, principal, terms snapshot, status, cycle count) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 360 528 30 re B
+BT /F2 7.4 Tf 0.075 0.110 0.190 rg 1 0 0 1 50.0 377.0 Tm (deposit_addresses) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 160.0 378.0 Tm (asset, network, address, enabled, updater, updated_at) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 330 528 30 re B
+BT /F2 7.4 Tf 0.075 0.110 0.190 rg 1 0 0 1 50.0 347.0 Tm (audit_events) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 160.0 348.0 Tm (actor, action, target, reason, request ID, timestamp; append-only) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 300 528 30 re B
+BT /F2 7.4 Tf 0.075 0.110 0.190 rg 1 0 0 1 50.0 317.0 Tm (outbox_events) Tj ET
+BT /F1 6.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 160.0 318.0 Tm (event type, payload, creation/publication time, attempts) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 276.0 Tm (Ledger invariants) Tj ET
+BT /F2 7.8 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 259.2 Tm (-) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 259.2 Tm (Store BTC/token quantities as integer atomic units at declared precision; never use binary floating-point for balances.) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 248.9 Tm (Validate bounds and precision at the API boundary.) Tj ET
+BT /F2 7.8 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 236.6 Tm (-) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 236.6 Tm (Every posted journal balances to zero per asset. A transfer writes sender debit, recipient credit, linked history and outbox) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 226.3 Tm (event in one DB transaction.) Tj ET
+BT /F2 7.8 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 214.0 Tm (-) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 214.0 Tm (Lock affected accounts in deterministic order; verify available balance; write journal and projection atomically. Roll back on) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 203.7 Tm (failure.) Tj ET
+BT /F2 7.8 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 191.4 Tm (-) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 191.4 Tm (Journal is immutable; corrections use compensating entries. Enforce unique idempotency key scoped to actor and operation.) Tj ET
+BT /F2 7.8 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 179.1 Tm (-) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 179.1 Tm (Snapshot investment rate, cycle length, start, rules version and acknowledgement; settings changes do not rewrite old) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 168.8 Tm (positions.) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 4466 >>
+stream
+0.075 0.110 0.190 rg 0 739 612 53 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 42.0 760.0 Tm (NEXORA  /  BACKEND SYSTEM DESIGN) Tj ET
+BT /F2 21 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 717.0 Tm (Key workflows and state transitions) Tj ET
+0.860 0.880 0.920 RG 0.8 w 42 704 m 570 704 l S
+0.860 0.880 0.920 RG 0.8 w 42 36 m 570 36 l S
+BT /F1 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 42.0 19.0 Tm (Target-state proposal for the frontend-only Nexora simulation) Tj ET
+BT /F2 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 537.0 19.0 Tm (05 / 08) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 669.0 Tm (Internal user transfer \(simulated\)) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 617 528 43 re B
+0.080 0.550 0.480 rg 42 617 4 43 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 54.0 643.0 Tm (1. Authenticate) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 629.0 Tm (Resolve actor from session; enforce active account.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 567 528 43 re B
+0.380 0.340 0.920 rg 42 567 4 43 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 54.0 593.0 Tm (2. Validate) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 579.0 Tm (Resolve recipient server-side; reject self-transfer, disabled asset, invalid amount/precision or memo.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 517 528 43 re B
+0.380 0.340 0.920 rg 42 517 4 43 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 54.0 543.0 Tm (3. Idempotency) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 529.0 Tm (Same key and payload returns original result; same key with changed payload conflicts.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 467 528 43 re B
+0.380 0.340 0.920 rg 42 467 4 43 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 54.0 493.0 Tm (4. Atomic posting) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 479.0 Tm (Lock sender and recipient; check available amount; write balanced journal and linked user records.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 417 528 43 re B
+0.080 0.550 0.480 rg 42 417 4 43 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 54.0 443.0 Tm (5. Commit and notify) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 429.0 Tm (Commit once; transactional outbox emits notification; return stable reference and simulated status.) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 393.0 Tm (Investment simulation) Tj ET
+BT /F2 7.8 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 376.2 Tm (-) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 376.2 Tm (On user confirmation, debit demo balance and create position in one DB transaction; snapshot terms and acknowledgement.) Tj ET
+BT /F2 7.8 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 363.9 Tm (-) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 363.9 Tm (Cycle worker is idempotent and records inputs. Returns are illustrative only, not a receivable, payable balance, withdrawal) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 353.6 Tm (source or real yield.) Tj ET
+BT /F2 7.8 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 341.3 Tm (-) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 341.3 Tm (Clearly separate principal, completed-cycle illustration and hypothetical projection; never imply an offer or guaranteed) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 331.0 Tm (payout.) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 309.5 Tm (Deposits, admin credits and external withdrawals) Tj ET
+BT /F2 7.8 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 292.7 Tm (-) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 292.7 Tm (Deposit page reads configured destination metadata. Address visibility is not proof of receipt; never auto-credit from a user) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 282.4 Tm (claim or browser event.) Tj ET
+BT /F2 7.8 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 270.1 Tm (-) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 270.1 Tm (Simulated credit requires authenticated admin, MFA, reason, idempotency and audit; consider dual approval in higher-risk) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 259.8 Tm (environments.) Tj ET
+BT /F2 7.8 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 247.5 Tm (-) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 247.5 Tm (External withdrawals stay disabled and have no endpoint. Internal transfers are not blockchain transactions. Never collect seed) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 237.2 Tm (phrases or private keys.) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 4441 >>
+stream
+0.075 0.110 0.190 rg 0 739 612 53 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 42.0 760.0 Tm (NEXORA  /  BACKEND SYSTEM DESIGN) Tj ET
+BT /F2 21 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 717.0 Tm (Security, privacy and abuse controls) Tj ET
+0.860 0.880 0.920 RG 0.8 w 42 704 m 570 704 l S
+0.860 0.880 0.920 RG 0.8 w 42 36 m 570 36 l S
+BT /F1 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 42.0 19.0 Tm (Target-state proposal for the frontend-only Nexora simulation) Tj ET
+BT /F2 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 537.0 19.0 Tm (06 / 08) Tj ET
+0.990 0.940 0.940 rg 0.860 0.880 0.920 RG .6 w 42 634.0 528 52.0 re B
+0.700 0.200 0.200 rg 42 634.0 3 52.0 re f
+BT /F2 8.8 Tf 0.700 0.200 0.200 rg 1 0 0 1 54.0 669.0 Tm (CURRENT FRONTEND IS NOT AN AUTHENTICATION BOUNDARY) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 655.0 Tm (The demo accepts an administrator email with an arbitrary password and persists state/session in browser storage.) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 643.5 Tm (Replace with server-verified identity and authorization; route hiding and local state are never security controls.) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 608.0 Tm (Minimum backend controls) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 555.0 528 44 re B
+BT /F2 7.8 Tf 0.075 0.110 0.190 rg 1 0 0 1 51.0 584.0 Tm (Identity) Tj ET
+BT /F1 7.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 137.0 586.0 Tm (Argon2id or bcrypt with current parameters; verify email; generic login errors; credential-stuffing throttles; secure) Tj ET
+BT /F1 7.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 137.0 577.0 Tm (password reset.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 511.0 528 44 re B
+BT /F2 7.8 Tf 0.075 0.110 0.190 rg 1 0 0 1 51.0 540.0 Tm (Sessions) Tj ET
+BT /F1 7.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 137.0 542.0 Tm (Random opaque IDs stored hashed server-side; Secure, HttpOnly, SameSite cookies; rotation, expiry, revocation and) Tj ET
+BT /F1 7.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 137.0 533.0 Tm (CSRF protection.) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 467.0 528 44 re B
+BT /F2 7.8 Tf 0.075 0.110 0.190 rg 1 0 0 1 51.0 496.0 Tm (Authorization) Tj ET
+BT /F1 7.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 137.0 498.0 Tm (Enforce ownership at every query/service boundary. Server-side admin RBAC, MFA, least privilege and re-auth for) Tj ET
+BT /F1 7.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 137.0 489.0 Tm (sensitive changes.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 423.0 528 44 re B
+BT /F2 7.8 Tf 0.075 0.110 0.190 rg 1 0 0 1 51.0 452.0 Tm (Validation) Tj ET
+BT /F1 7.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 137.0 454.0 Tm (Schema validation, allowlisted asset/network pairs, amount bounds, payload caps, parameterized SQL and safe output) Tj ET
+BT /F1 7.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 137.0 445.0 Tm (encoding.) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 379.0 528 44 re B
+BT /F2 7.8 Tf 0.075 0.110 0.190 rg 1 0 0 1 51.0 408.0 Tm (Abuse resistance) Tj ET
+BT /F1 7.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 137.0 410.0 Tm (Per-IP/account rate limits; login/admin throttles; idempotency; concurrency guards; paging caps and timeouts.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 335.0 528 44 re B
+BT /F2 7.8 Tf 0.075 0.110 0.190 rg 1 0 0 1 51.0 364.0 Tm (Secrets and transport) Tj ET
+BT /F1 7.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 137.0 366.0 Tm (TLS, managed secret store, rotation; no credentials in frontend/logs. No private keys are stored or used.) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 291.0 528 44 re B
+BT /F2 7.8 Tf 0.075 0.110 0.190 rg 1 0 0 1 51.0 320.0 Tm (Audit and privacy) Tj ET
+BT /F1 7.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 137.0 322.0 Tm (Record actor, action, target, reason, request ID and time. Redact passwords/tokens and minimize PII.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 247.0 528 44 re B
+BT /F2 7.8 Tf 0.075 0.110 0.190 rg 1 0 0 1 51.0 276.0 Tm (Browser boundary) Tj ET
+BT /F1 7.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 137.0 278.0 Tm (CORS allowlist, restrictive CSP, secure headers. Client balances, role, prices and statuses are untrusted.) Tj ET
+BT /F1 7.7 Tf 0.380 0.420 0.490 rg 1 0 0 1 42.0 232.3 Tm (Release threat tests: cross-user IDOR, role escalation, CSRF, session replay, credential stuffing, double-spend races, duplicate) Tj ET
+BT /F1 7.7 Tf 0.380 0.420 0.490 rg 1 0 0 1 42.0 221.5 Tm (requests, stale/forged quotes, admin misuse and export leakage.) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 4485 >>
+stream
+0.075 0.110 0.190 rg 0 739 612 53 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 42.0 760.0 Tm (NEXORA  /  BACKEND SYSTEM DESIGN) Tj ET
+BT /F2 21 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 717.0 Tm (Reliability, deployment and observability) Tj ET
+0.860 0.880 0.920 RG 0.8 w 42 704 m 570 704 l S
+0.860 0.880 0.920 RG 0.8 w 42 36 m 570 36 l S
+BT /F1 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 42.0 19.0 Tm (Target-state proposal for the frontend-only Nexora simulation) Tj ET
+BT /F2 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 537.0 19.0 Tm (07 / 08) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 669.0 Tm (Runtime topology) Tj ET
+BT /F2 8.0 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 652.0 Tm (-) Tj ET
+BT /F1 8.0 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 652.0 Tm (Serve the static frontend separately; route /api/v1 to stateless backend behind TLS. Start with one modular API, managed) Tj ET
+BT /F1 8.0 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 641.4 Tm (PostgreSQL and a small worker.) Tj ET
+BT /F2 8.0 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 628.9 Tm (-) Tj ET
+BT /F1 8.0 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 628.9 Tm (Use encrypted managed PostgreSQL on private networking, automated backups and point-in-time recovery. Keep migrations) Tj ET
+BT /F1 8.0 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 618.3 Tm (explicit and backward-compatible.) Tj ET
+BT /F2 8.0 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 605.8 Tm (-) Tj ET
+BT /F1 8.0 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 605.8 Tm (Redis is optional for rate limits, short quote cache or coordination; never the ledger source of truth.) Tj ET
+BT /F2 8.0 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 593.2 Tm (-) Tj ET
+BT /F1 8.0 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 593.2 Tm (Use transactional outbox, bounded retries, exponential backoff and dead-letter visibility. Every handler is idempotent.) Tj ET
+BT /F2 8.0 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 580.6 Tm (-) Tj ET
+BT /F1 8.0 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 580.6 Tm (Market adapter uses provider allowlist, strict timeout, response validation, cache TTL and stale-age metadata; quote outages) Tj ET
+BT /F1 8.0 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 570.1 Tm (never block wallet writes.) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 548.5 Tm (Operational behavior) Tj ET
+BT /F2 7.8 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 530.5 Tm (Health) Tj ET
+BT /F1 7.5 Tf 0.140 0.170 0.230 rg 1 0 0 1 125.0 532.0 Tm (Separate liveness/readiness; do not expose secrets or topology.) Tj ET
+0.860 0.880 0.920 RG 0.4 w 42 527.52 m 570 527.52 l S
+BT /F2 7.8 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 513.5 Tm (Metrics) Tj ET
+BT /F1 7.5 Tf 0.140 0.170 0.230 rg 1 0 0 1 125.0 515.0 Tm (Request latency/errors, DB pool, lock conflicts, transfer outcomes, outbox age, quote freshness and auth) Tj ET
+BT /F1 7.5 Tf 0.140 0.170 0.230 rg 1 0 0 1 125.0 505.0 Tm (throttles.) Tj ET
+0.860 0.880 0.920 RG 0.4 w 42 500.52 m 570 500.52 l S
+BT /F2 7.8 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 486.5 Tm (Logs) Tj ET
+BT /F1 7.5 Tf 0.140 0.170 0.230 rg 1 0 0 1 125.0 488.0 Tm (Structured JSON, request ID and action result; redact secrets and minimize PII.) Tj ET
+0.860 0.880 0.920 RG 0.4 w 42 483.52 m 570 483.52 l S
+BT /F2 7.8 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 469.5 Tm (Alerts) Tj ET
+BT /F1 7.5 Tf 0.140 0.170 0.230 rg 1 0 0 1 125.0 471.0 Tm (Elevated errors/latency, failed backup, DB saturation, outbox lag, repeated admin auth failures and stale feed.) Tj ET
+0.860 0.880 0.920 RG 0.4 w 42 466.52 m 570 466.52 l S
+BT /F2 7.8 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 452.5 Tm (Recovery) Tj ET
+BT /F1 7.5 Tf 0.140 0.170 0.230 rg 1 0 0 1 125.0 454.0 Tm (Test backup restore, projection rebuild from journal, secret rotation, session revocation and runbooks.) Tj ET
+0.860 0.880 0.920 RG 0.4 w 42 449.52 m 570 449.52 l S
+BT /F2 7.8 Tf 0.080 0.550 0.480 rg 1 0 0 1 48.0 435.5 Tm (Release) Tj ET
+BT /F1 7.5 Tf 0.140 0.170 0.230 rg 1 0 0 1 125.0 437.0 Tm (CI tests/scans, migration check, staged deploy, smoke test and rollback plan.) Tj ET
+0.860 0.880 0.920 RG 0.4 w 42 432.52 m 570 432.52 l S
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 410.5 Tm (Initial objectives - confirm with owner) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 42.0 393.7 Tm (API availability 99.9% monthly excluding planned maintenance; p95 under 300 ms for ordinary DB-backed operations. Quotes are) Tj ET
+BT /F1 7.8 Tf 0.140 0.170 0.230 rg 1 0 0 1 42.0 382.8 Tm (best-effort and may be stale; they never block ledger correctness. RPO/RTO require owner approval and restore validation.) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 4775 >>
+stream
+0.075 0.110 0.190 rg 0 739 612 53 re f
+BT /F2 9 Tf 1.000 1.000 1.000 rg 1 0 0 1 42.0 760.0 Tm (NEXORA  /  BACKEND SYSTEM DESIGN) Tj ET
+BT /F2 21 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 717.0 Tm (Migration plan, acceptance and open decisions) Tj ET
+0.860 0.880 0.920 RG 0.8 w 42 704 m 570 704 l S
+0.860 0.880 0.920 RG 0.8 w 42 36 m 570 36 l S
+BT /F1 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 42.0 19.0 Tm (Target-state proposal for the frontend-only Nexora simulation) Tj ET
+BT /F2 7 Tf 0.380 0.420 0.490 rg 1 0 0 1 537.0 19.0 Tm (08 / 08) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 669.0 Tm (Incremental implementation sequence) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 615 528 45 re B
+0.080 0.550 0.480 rg 42 615 4 45 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 54.0 643.0 Tm (Phase 0 - Contract) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 629.0 Tm (Freeze demo-only wording, asset precision, statuses, roles and API shapes.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 564 528 45 re B
+0.080 0.550 0.480 rg 42 564 4 45 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 54.0 592.0 Tm (Phase 1 - Foundation) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 578.0 Tm (Service, PostgreSQL, migrations, health, secure auth/session, authorization and audit.) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 513 528 45 re B
+0.380 0.340 0.920 rg 42 513 4 45 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 54.0 541.0 Tm (Phase 2 - Read model) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 527.0 Tm (Profile, assets, balances, history, address reads and market quote proxy.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 462 528 45 re B
+0.380 0.340 0.920 rg 42 462 4 45 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 54.0 490.0 Tm (Phase 3 - Simulated operations) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 476.0 Tm (Idempotent transfers, admin demo credits, investment simulation and notifications.) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 411 528 45 re B
+0.380 0.340 0.920 rg 42 411 4 45 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 54.0 439.0 Tm (Phase 4 - Hardening) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 425.0 Tm (MFA, rate limits, concurrency/security tests, monitoring and restore runbooks.) Tj ET
+1.000 1.000 1.000 rg 0.860 0.880 0.920 RG .6 w 42 360 528 45 re B
+0.380 0.340 0.920 rg 42 360 4 45 re f
+BT /F2 8.5 Tf 0.075 0.110 0.190 rg 1 0 0 1 54.0 388.0 Tm (Phase 5 - Frontend integration) Tj ET
+BT /F1 7.2 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 374.0 Tm (Only after approval, replace local persistence/workflows with API clients; frontend remains untouched until separately requested.) Tj ET
+BT /F2 11 Tf 0.075 0.110 0.190 rg 1 0 0 1 42.0 337.0 Tm (Acceptance criteria) Tj ET
+BT /F2 7.4 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 320.6 Tm (-) Tj ET
+BT /F1 7.4 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 320.6 Tm (Users can only read their own profile, balances, investments and transactions; cross-user access fails server-side.) Tj ET
+BT /F2 7.4 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 308.8 Tm (-) Tj ET
+BT /F1 7.4 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 308.8 Tm (Concurrent/repeated transfers cannot overdraw or duplicate credits; entries balance and commit atomically.) Tj ET
+BT /F2 7.4 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 297.1 Tm (-) Tj ET
+BT /F1 7.4 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 297.1 Tm (Admin credits/address/status changes have actor, reason, timestamp and request ID; regular users are denied.) Tj ET
+BT /F2 7.4 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 285.3 Tm (-) Tj ET
+BT /F1 7.4 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 285.3 Tm (No public request confirms external deposits or initiates blockchain withdrawals. Demo outputs stay labeled simulated.) Tj ET
+BT /F2 7.4 Tf 0.380 0.340 0.920 rg 1 0 0 1 48.0 273.5 Tm (-) Tj ET
+BT /F1 7.4 Tf 0.140 0.170 0.230 rg 1 0 0 1 62.0 273.5 Tm (Projection rebuild, backup restore, stale quote, session revocation and idempotent retries are tested.) Tj ET
+0.950 0.960 0.990 rg 0.860 0.880 0.920 RG .6 w 42 217.15999999999985 528 52.0 re B
+0.750 0.430 0.080 rg 42 217.15999999999985 3 52.0 re f
+BT /F2 8.8 Tf 0.750 0.430 0.080 rg 1 0 0 1 54.0 252.2 Tm (Open decisions before implementation) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 238.2 Tm (Choose language/framework, hosting/region, email delivery, MFA provider, retention, suspension semantics, whether) Tj ET
+BT /F1 8.1 Tf 0.140 0.170 0.230 rg 1 0 0 1 54.0 226.7 Tm (simulated deposit confirmation is needed, and per-network asset precision. No real-money/custody scope is assumed.) Tj ET
+BT /F1 6.8 Tf 0.380 0.420 0.490 rg 1 0 0 1 42.0 50.0 Tm (Source basis: frontend README, routes/state behavior and existing frontend design prompt \(30 Oct 2026\).) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+21 0 obj
+<< /Title (Nexora Backend System Design) /Author (OpenAI) /Subject (Proposed backend architecture for a frontend-only simulation) >>
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000000015 00000 n 
+0000000112 00000 n 
+0000000214 00000 n 
+0000000320 00000 n 
+0000006427 00000 n 
+0000006563 00000 n 
+0000011444 00000 n 
+0000011580 00000 n 
+0000018670 00000 n 
+0000018806 00000 n 
+0000024427 00000 n 
+0000024565 00000 n 
+0000029084 00000 n 
+0000029222 00000 n 
+0000033716 00000 n 
+0000033854 00000 n 
+0000038392 00000 n 
+0000038530 00000 n 
+0000043358 00000 n 
+0000043496 00000 n 
+0000043546 00000 n 
+trailer
+<< /Size 22 /Root 20 0 R /Info 21 0 R >>
+startxref
+43695
+%%EOF
